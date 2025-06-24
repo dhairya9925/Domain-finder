@@ -1,0 +1,6 @@
+flask
+openpyxl
+requests
+beautifulsoup4
+dnspython
+clearbit

@@ -1,6 +1,10 @@
+import subprocess
+subprocess.run("pip install -r requirements.txt")
+
+
 from flask import Flask, request, render_template, send_file
-import pandas as pd
 import os
+import pandas as pd
 from clearbit_utils import get_domain_from_clearbit
 from fallback_search import fallback_domain_guess
 
